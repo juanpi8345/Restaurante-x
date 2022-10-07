@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="description" content="El restaurante x de Argentina es el mas importante de Argentina ">
+	<meta keywords = "comida Argentina, restaurante" >
+	<meta name= "author" content= "Juan Pablo Pregliasco">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libs/wow/animate.css">
+	<link rel="stylesheet" href="libs/owl/owl.carousel.css">
+	<link rel="stylesheet" href="libs/owl/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="shortcut icon" href="img/logo.png">
+	<script src="js/jQuery.js"></script>
+	<script src="https://kit.fontawesome.com/eb09d1be43.js" crossorigin="anonymous"></script>
+	<script src="libs/wow/wow.js"></script>
+	<script src="libs/owl/owl.carousel.js"></script>
+	<script src="libs/jquery-validation/jquery-validation.js"></script>
+</head>
+<body>
+	<header class="cabecera">
+			<div class="container">
+				<a href="index.html" class="link-logo">
+					<img class = "logo" src="img/logo.png" width="138" height="135">
+				</a>
+				<nav class="menu">
+					<a href="index.html#lacarta">Menu</a>
+					<a href="index.html#locales">Locales</a>
+					<a href="nosotros.html"class="seleccionado">Nosotros</a>
+					<a href="contacto.html">Contacto</a>
+				</nav>
+				<a href="#" class="hamb"><i class="fas fa-bars"></i></a>	
+			</div>	
+		</header>
+		<main>
+			<section id ="banner" class="banner-contacto">
+				<img src="img/contacto.jpg" class="banner-home" width="1880" height="1245">
+				<a href="#" class="saltarina"><i class="fa-solid fa-angle-down"></i></a>
+				<div class="container">
+					<div class="fila fila-centrada">
+						<div class="columna columna-50 columna-mb-100">
+							<h1 class="centrar-texto wow slideInLeft" data-wow-duration="2s">Contactanos</h1>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacto" class="seccion">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-50 columna-mb-100">
+							<form id="frmcontacto" action="registro.php" method="post">
+								<div class="form-bloques">
+									<input id ="nombre" class="form-input" type="text" placeholder="Nombre" name="nombre" required>
+								</div>
+								<div class="form-bloques">
+									<input id ="email" class="form-input" type="email" placeholder="Email" name="email" required>
+								</div>
+								<div class="form-bloques">
+									<input id ="asunto" class="form-input" type="text" placeholder="Asunto" name="asunto" required>
+								</div>
+								<div class="form-bloques">
+									<textarea id ="mensaje" class="form-input" required name="mensaje" placeholder="Mensaje"></textarea>
+								</div>
+								<div class="form-bloques form-bloque-boton">
+									<input type="submit" value="Enviar" class="btn boton-amarillo btn-enviar">
+								</div>
+								<div class="form-bloques form-bloque-rpta">
+									<div id="respuesta">
+										
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="columna columna-50 columna-mb-100 derecha-texto columna-info-contacto">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<h2>Av 25 de Mayo, Lanus, Argentina</h2>
+							<a href="tel:+541123131016" class="telefono">+54 1123312016</a>
+							<a href="mailto:pregliasco@hotmail.com" class="email">restaurante@hotmail.com</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="prefooter">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-100">
+							<div class="mapa">
+								<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Argentina%20buenos%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pie">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-33 columna-mb-100 orden lista-redes empujar-33 empujar-mb-0">
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					</div>
+					<div class="columna columna-33 columna-mb-100">
+						&reg; Derechos reservados 2022
+						</div>
+					</div>
+			    </div>
+			</div>	
+		 </footer>
+		 <div class="trama2">
+		 		<div class="logo-load">
+		 			<img src="img/logo.png">
+		 		</div>
+		 	</div>
+	 <script type="text/javascript" src="js/funciones.js"></script>
+</body>
+</html>
